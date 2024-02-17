@@ -1,0 +1,11 @@
+@use "generic/normalize";
+@use "generic/reset";
+
+@use "settings/fonts";
+
+
+//testing scss link
+h1 {
+  font-family: fonts.$font-base, "Comic Sans MS";
+  color: red!important;
+}
