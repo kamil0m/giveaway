@@ -2,10 +2,8 @@
 @use "generic/reset";
 
 @use "settings/fonts";
+@use "settings/colors";
+@use "settings/spaces";
 
-
-//testing scss link
-h1 {
-  font-family: fonts.$font-base, "Comic Sans MS";
-  color: red!important;
-}
+@use "elements/header";
+@use "elements/top__menu";

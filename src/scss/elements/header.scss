@@ -1,0 +1,9 @@
+@use "../settings/fonts";
+@use "../settings/colors";
+
+.intro__slogan {
+  font-size: 38px;
+  color: colors.$color-dark;
+  font-family: fonts.$font-alt;
+  text-align: center;
+}

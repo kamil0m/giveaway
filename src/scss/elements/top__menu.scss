@@ -1,0 +1,38 @@
+@use "../settings/fonts";
+@use "../settings/colors";
+
+.connection__panel {
+  display: flex;
+  font-family: fonts.$font-alt;
+  font-size: 14px;
+  color: colors.$color-grey;
+
+  a {
+    padding: 12px;
+  }
+}
+
+.link__accent {
+  border: 1px solid colors.$color-accent;
+}
+
+.top__menu {
+  display: flex;
+  font-family: fonts.$font-alt;
+  font-size: 18px;
+  color: colors.$color-dark;
+
+  a {
+    padding: 16px;
+    margin: 10px;
+
+    &:first-child {
+      border: 1px solid colors.$color-dark;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      margin-right: 0;
+    }
+  }
+}

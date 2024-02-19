@@ -1,3 +1,18 @@
+
+
 export default function HomeHeader() {
-    return <h1>HomeHeader component</h1>
+    return <div className="header__intro">
+        <div className="stuff" />
+        <div className="calltoaction">
+            <h1 className="intro__slogan">
+                Start helping!<br/>
+                Entrust your donations in safe hands
+            </h1>
+            <div className="decoration"></div>
+            <div className="main__buttons">
+                <button>Give your stuff away</button>
+                <button>Organize a collection</button>
+            </div>
+        </div>
+    </div>
 }
