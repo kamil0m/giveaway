@@ -1,3 +1,5 @@
+import ButtonGiveAway from "./Buttons/ButtonGiveAway";
+import ButtonCollection from "./Buttons/ButtonCollection";
 
 
 export default function HomeHeader() {
@@ -10,8 +12,8 @@ export default function HomeHeader() {
             </h1>
             <div className="decoration"></div>
             <div className="main__buttons">
-                <button>Give your stuff away</button>
-                <button>Organize a collection</button>
+                <ButtonGiveAway />
+                <ButtonCollection />
             </div>
         </div>
     </div>

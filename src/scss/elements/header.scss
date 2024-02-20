@@ -1,9 +1,30 @@
 @use "../settings/fonts";
 @use "../settings/colors";
 
-.intro__slogan {
-  font-size: 38px;
-  color: colors.$color-dark;
-  font-family: fonts.$font-alt;
-  text-align: center;
+.header__intro {
+  display: flex;
+}
+
+
+.stuff {
+  width: 45%;
+  height: 70vh;
+  background-image: url("../../assets/images/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transform: translate(0, -20%);
+}
+
+.calltoaction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .intro__slogan {
+    font-size: 38px;
+    color: colors.$color-dark;
+    font-family: fonts.$font-alt;
+    text-align: center;
+  }
 }
