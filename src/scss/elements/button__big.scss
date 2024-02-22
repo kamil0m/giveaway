@@ -1,18 +1,13 @@
 @use "../settings/fonts";
 @use "../settings/colors";
 
-.main__buttons {
-  width: 100%;
-
-  .button__big {
-    font-size: 38px;
-    width: 45%;
-    font-family: fonts.$font-alt;
-    color: colors.$color-grey;
-    background-color: white;
-    padding: 1rem 2rem;
-    margin: 1rem;
-    border: 1px solid colors.$color-grey;
-  }
+.button__big {
+  font-size: 38px;
+  width: 45%;
+  font-family: fonts.$font-alt;
+  color: colors.$color-grey;
+  background-color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: 1px solid colors.$color-grey;
 }
-

@@ -1,39 +1,46 @@
 @use "../settings/fonts";
 @use "../settings/colors";
 
-.connection__panel {
+.top__menu {
+  position: relative;
   display: flex;
+  flex-direction: column;
   font-family: fonts.$font-alt;
-  font-size: 14px;
-  color: colors.$color-grey;
 
-  a {
-    padding: 12px;
+  .connection__panel {
+    display: flex;
+    font-size: 14px;
+    color: colors.$color-grey;
+    justify-content: flex-end;
+    margin: 10px 0;
+
+    a {
+      padding: 12px;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: colors.$color-dark;
+
+    a {
+      padding: 16px;
+      margin: 10px;
+
+      &:first-child {
+        border: 1px solid colors.$color-dark;
+      }
+
+      &:last-child {
+        padding-right: 0;
+        margin-right: 0;
+      }
+    }
   }
 }
 
 .link__accent {
   border: 1px solid colors.$color-accent;
-}
-
-.top__menu {
-  display: flex;
-  font-family: fonts.$font-alt;
-  font-size: 18px;
-  color: colors.$color-dark;
-  z-index: 1;
-
-  a {
-    padding: 16px;
-    margin: 10px;
-
-    &:first-child {
-      border: 1px solid colors.$color-dark;
-    }
-
-    &:last-child {
-      padding-right: 0;
-      margin-right: 0;
-    }
-  }
 }

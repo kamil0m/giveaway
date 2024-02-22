@@ -3,9 +3,8 @@ import ButtonCollection from "./Buttons/ButtonCollection";
 
 
 export default function HomeHeader() {
-    return <div className="header__intro">
-        <div className="stuff" />
-        <div className="calltoaction">
+    return <div className="stuff">
+        <div className="header__intro">
             <h1 className="intro__slogan">
                 Start helping!<br/>
                 Entrust your donations in safe hands
