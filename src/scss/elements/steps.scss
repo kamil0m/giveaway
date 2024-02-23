@@ -1,4 +1,4 @@
-//@use "../settings/fonts";
+@use "../settings/fonts";
 @use "../settings/colors";
 
 .steps {
@@ -7,18 +7,65 @@
   align-items: center;
 }
 
+.steps__headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .steps__slogan {
+    font-weight: 200;
+  }
+}
+
 .columns-4 {
-  background-color: colors.$color-light;
   display: flex;
   justify-content: center;
+}
+
+.steps__cards {
+  background-color: colors.$color-light;
+  padding: 50px;
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    font-family: fonts.$font-alt;
+    padding: 0 2rem;
+
+    .step__title {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+
+      &::after {
+        content: "";
+        height: 1px;
+        width: 70px;
+        background-color: colors.$color-dark;
+        position: relative;
+        margin: 1rem 0 0 0;
+      }
+    }
+
+    .step__text {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
 }
 
 .step__icon1,
 .step__icon2,
 .step__icon3,
 .step__icon4 {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,4 +83,10 @@
 }
 .step__icon4 {
   background-image: url("../../assets/images/Icon-4.svg");
+}
+
+.button__centered {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 2rem 0;
 }

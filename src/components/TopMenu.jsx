@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom';
-// import {Link} from 'react-scroll';
+// import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 
 export default function TopMenu() {
     return <div className="main__container">
@@ -10,7 +10,7 @@ export default function TopMenu() {
             </div>
             <nav className="navbar">
                 <Link to="/">Home</Link>
-                <Link to="/">How it works?</Link>
+                <Link to="steps__headline">How it works?</Link>
                 <Link to="/">About us</Link>
                 <Link to="/">Charity organizations</Link>
                 <Link to="/">Contact</Link>

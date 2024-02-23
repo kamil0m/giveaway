@@ -9,6 +9,6 @@ export default function Home() {
         <Outlet />
         <HomeHeader />
         <HomeThreeColumns />
-        <HomeSimpleSteps />
+        <HomeSimpleSteps name="simpleSteps" />
     </>
 }

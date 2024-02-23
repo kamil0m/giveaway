@@ -3,7 +3,7 @@ import ButtonCollection from "./Buttons/ButtonCollection";
 
 
 export default function HomeHeader() {
-    return <div className="stuff">
+    return <div className="header__container">
         <div className="header__intro">
             <h1 className="intro__slogan">
                 Start helping!<br/>
