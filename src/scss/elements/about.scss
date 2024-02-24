@@ -1,0 +1,56 @@
+@use "../settings/fonts";
+@use "../settings/colors";
+
+.about {
+  background-color: colors.$color-light;
+  height: 900px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &::after {
+    content: "";
+    background-image: url("../../assets/images/People.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    position: relative;
+  }
+
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10%;
+  }
+
+  .about__text  {
+    font-size: 30px;
+    font-family: fonts.$font-alt;
+    line-height: 60px;
+  }
+
+  .about__sign {
+    height: 150px;
+    width: 100%;
+    background-image: url("../../assets/images/Signature.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    align-self: flex-end;
+    margin: 2rem 0;
+  }
+}
+
+h2 {
+  font-family: fonts.$font-alt;
+  font-size: 38px;
+  font-weight: 200;
+}
+
+p {
+  text-align: center;
+}
