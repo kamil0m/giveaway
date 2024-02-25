@@ -11,9 +11,9 @@ export default function TopMenu() {
             <nav className="navbar">
                 <Link to="/">Home</Link>
                 <Link to="steps__headline">How it works?</Link>
-                <Link to="/">About us</Link>
-                <Link to="/">Charity organizations</Link>
-                <Link to="/">Contact</Link>
+                <Link to="about">About us</Link>
+                <Link to="partners">Charity organizations</Link>
+                <Link to="contact">Contact</Link>
             </nav>
         </div>
     </div>
