@@ -1,110 +1,109 @@
-[
-  {
-    "category": "foundation",
-    "name": "Global Health Foundation",
-    "donations": "Healthcare equipment, medical supplies",
-    "purpose": "To provide medical aid and support to underserved communities around the world."
-  },
-  {
-    "category": "foundation",
-    "name": "Education for All Foundation",
-    "donations": "School supplies, scholarships",
-    "purpose": "To ensure access to quality education for children in disadvantaged regions."
-  },
-  {
-    "category": "foundation",
-    "name": "Environmental Conservation Fund",
-    "donations": "Sustainable initiatives, reforestation projects",
-    "purpose": "To protect and preserve natural habitats and biodiversity."
-  },
-  {
-    "category": "foundation",
-    "name": "Poverty Alleviation Trust",
-    "donations": "Food, clothing, financial aid",
-    "purpose": "To empower individuals and families living in poverty through various support programs."
-  },
-  {
-    "category": "foundation",
-    "name": "Animal Welfare Society",
-    "donations": "Shelter maintenance, veterinary care",
-    "purpose": "To rescue and provide care for animals in need and advocate for animal rights."
-  },
-  {
-    "category": "foundation",
-    "name": "Arts and Culture Endowment",
-    "donations": "Art supplies, cultural events",
-    "purpose": "To promote artistic expression and preserve cultural heritage."
-  },
-  {
-    "category": "foundation",
-    "name": "Disaster Relief Foundation",
-    "donations": "Emergency aid, reconstruction efforts",
-    "purpose": "To provide rapid response and assistance to communities affected by natural disasters."
-  },
-  {
-    "category": "foundation",
-    "name": "Technology Innovation Fund",
-    "donations": "Research grants, technology access",
-    "purpose": "To support innovation and technological advancement for societal benefit."
-  },
-  {
-    "category": "foundation",
-    "name": "Human Rights Advocacy Group",
-    "donations": "Legal aid, awareness campaigns",
-    "purpose": "To defend and promote human rights globally."
-  },
-  {
-    "category": "NGO",
-    "name": "Clean Water Initiative",
-    "donations": "Water filtration systems, sanitation projects",
-    "purpose": "To provide access to clean and safe drinking water in underprivileged areas."
-  },
-  {
-    "category": "NGO",
-    "name": "Youth Empowerment Network",
-    "donations": "Youth programs, skill development workshops",
-    "purpose": "To empower young people with the skills and resources necessary for personal and professional growth."
-  },
-  {
-    "category": "NGO",
-    "name": "Women's Rights Organization",
-    "donations": "Empowerment programs, advocacy efforts",
-    "purpose": "To promote gender equality and empower women and girls worldwide."
-  },
-  {
-    "category": "NGO",
-    "name": "Food Security Coalition",
-    "donations": "Food distribution, community gardens",
-    "purpose": "To eradicate hunger and food insecurity through sustainable solutions and community empowerment."
-  },
-  {
-    "category": "NGO",
-    "name": "Refugee Support Network",
-    "donations": "Refugee aid, resettlement assistance",
-    "purpose": "To provide support and resources to refugees and displaced persons."
-  },
-  {
-    "category": "NGO",
-    "name": "Mental Health Alliance",
-    "donations": "Counseling services, awareness campaigns",
-    "purpose": "To promote mental health awareness, provide support, and reduce stigma surrounding mental illness."
-  },
-  {
-    "category": "Local Donations Collection",
-    "name": "Community Food Bank",
-    "donations": "Non-perishable food items, monetary contributions",
-    "purpose": "To provide food assistance to individuals and families facing food insecurity within the local community."
-  },
-  {
-    "category": "Local Donations Collection",
-    "name": "Shelter for the Homeless",
-    "donations": "Clothing, bedding, hygiene products",
-    "purpose": "To offer temporary shelter and support services to homeless individuals within the local area."
-  },
-  {
-    "category": "Local Donations Collection",
-    "name": "School Supplies Drive",
-    "donations": "School supplies, backpacks",
-    "purpose": "To collect and distribute school supplies to children in need within the local school district."
-  }
-]
+{
+  "categories": [
+    {
+      "name": "foundation",
+      "elements": [
+        {
+          "name": "Global Health Foundation",
+          "donations": "Healthcare equipment, medical supplies",
+          "purpose": "To provide medical aid and support to underserved communities around the world."
+        },
+        {
+          "name": "Education for All Foundation",
+          "donations": "School supplies, scholarships",
+          "purpose": "To ensure access to quality education for children in disadvantaged regions."
+        },
+        {
+          "name": "Environmental Conservation Fund",
+          "donations": "Sustainable initiatives, reforestation projects",
+          "purpose": "To protect and preserve natural habitats and biodiversity."
+        },
+        {
+          "name": "Poverty Alleviation Trust",
+          "donations": "Food, clothing, financial aid",
+          "purpose": "To empower individuals and families living in poverty through various support programs."
+        },
+        {
+          "name": "Animal Welfare Society",
+          "donations": "Shelter maintenance, veterinary care",
+          "purpose": "To rescue and provide care for animals in need and advocate for animal rights."
+        },
+        {
+          "name": "Arts and Culture Endowment",
+          "donations": "Art supplies, cultural events",
+          "purpose": "To promote artistic expression and preserve cultural heritage."
+        },
+        {
+          "name": "Disaster Relief Foundation",
+          "donations": "Emergency aid, reconstruction efforts",
+          "purpose": "To provide rapid response and assistance to communities affected by natural disasters."
+        },
+        {
+          "name": "Technology Innovation Fund",
+          "donations": "Research grants, technology access",
+          "purpose": "To support innovation and technological advancement for societal benefit."
+        },
+        {
+          "name": "Human Rights Advocacy Group",
+          "donations": "Legal aid, awareness campaigns",
+          "purpose": "To defend and promote human rights globally."
+        }
+      ]
+    },
+    {
+      "name": "NGO",
+      "elements": [
+        {
+          "name": "Clean Water Initiative",
+          "donations": "Water filtration systems, sanitation projects",
+          "purpose": "To provide access to clean and safe drinking water in underprivileged areas."
+        },
+        {
+          "name": "Youth Empowerment Network",
+          "donations": "Youth programs, skill development workshops",
+          "purpose": "To empower young people with the skills and resources necessary for personal and professional growth."
+        },
+        {
+          "name": "Women's Rights Organization",
+          "donations": "Empowerment programs, advocacy efforts",
+          "purpose": "To promote gender equality and empower women and girls worldwide."
+        },
+        {
+          "name": "Food Security Coalition",
+          "donations": "Food distribution, community gardens",
+          "purpose": "To eradicate hunger and food insecurity through sustainable solutions and community empowerment."
+        },
+        {
+          "name": "Refugee Support Network",
+          "donations": "Refugee aid, resettlement assistance",
+          "purpose": "To provide support and resources to refugees and displaced persons."
+        },
+        {
+          "name": "Mental Health Alliance",
+          "donations": "Counseling services, awareness campaigns",
+          "purpose": "To promote mental health awareness, provide support, and reduce stigma surrounding mental illness."
+        }
+      ]
+    },
+    {
+      "name": "Local Donations Collection",
+      "elements": [
+        {
+          "name": "Community Food Bank",
+          "donations": "Non-perishable food items, monetary contributions",
+          "purpose": "To provide food assistance to individuals and families facing food insecurity within the local community."
+        },
+        {
+          "name": "Shelter for the Homeless",
+          "donations": "Clothing, bedding, hygiene products",
+          "purpose": "To offer temporary shelter and support services to homeless individuals within the local area."
+        },
+        {
+          "name": "School Supplies Drive",
+          "donations": "School supplies, backpacks",
+          "purpose": "To collect and distribute school supplies to children in need within the local school district."
+        }
+      ]
+    }
+  ]
+}

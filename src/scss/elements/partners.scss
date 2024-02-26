@@ -1,3 +1,68 @@
-.carousel__container {
-  max-width: 80%;
+@use "../settings/fonts";
+@use "../settings/colors";
+
+.partners__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .partners__title {
+    margin: 3rem 0 0 0;
+  }
+}
+
+.partner__filters {
+  display: flex;
+
+
+  button {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    font-family: fonts.$font-alt;
+
+    &:active,
+    &.active {
+      border: 1px solid colors.$color-dark;
+    }
+  }
+}
+
+.partners__note {
+  font-family: fonts.$font-alt;
+  font-size: 22px;
+  width: 60%;
+}
+
+.partners__list {
+  width: 90%;
+}
+
+.partner__entry {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: fonts.$font-base;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 20px 0;
+  border-bottom: 1px solid colors.$color-dark;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .partner__name {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .partner__collection {
+    text-align: right;
+    color: colors.$color-grey;
+
+  }
 }

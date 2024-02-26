@@ -1,12 +1,13 @@
-export default function PartnerList() {
+export default function PartnerList({partnersFiltered}) {
     return <div className="partners__list">
-        <div className="partner__entry">
-            <div className="partner__about">
-                <div className="partner__name">Fundacja X</div>
-                <div className="partner__purpose">Purpose</div>
-            </div>
-            <div className="partner__collection">collection</div>
-        </div>
-
+        {partnersFiltered.map((partner, index) =>
+            <div key={index} className="partner__entry">
+                <div className="partner__about">
+                    <div className="partner__name">{partner.name}</div>
+                    <div className="partner__purpose">{partner.purpose}</div>
+                </div>
+                <div className="partner__collection">{partner.donations}</div>
+            </div>)
+        }
     </div>
 }
