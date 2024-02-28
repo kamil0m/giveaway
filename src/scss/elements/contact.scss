@@ -84,11 +84,10 @@ textarea {
   background: none;
 }
 
-.contact__submit {
+.button__submit {
   align-self: flex-end;
   margin: 2rem 0;
   padding: 1rem 2rem;
-  background-color: colors.$color-light;
   border: 1px solid colors.$color-dark;
   font-family: fonts.$font-alt;
   font-size: 18px;

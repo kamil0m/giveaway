@@ -1,3 +1,9 @@
+import TopMenu from "./TopMenu";
+import {Outlet} from "react-router-dom";
+
 export default function SignIn() {
-    return <h1>SignIn component</h1>
+    return <>
+        <TopMenu />
+        <Outlet />
+    </>
 }
