@@ -1,19 +1,20 @@
-import {NavLink} from 'react-router-dom';
-import {Link} from 'react-scroll';
+import {Link} from 'react-router-dom';
+import {Link as LinkScroll} from 'react-scroll';
 
-export default function TopMenu() {
+export default function TopMenu({scroll}) {
+
     return <div className="main__container">
         <div className="top__menu">
             <div className="connection__panel">
-                <NavLink to="/login">Log in</NavLink>
-                <NavLink to="/signin" className="link__accent">Sign in</NavLink>
+                <Link to="/login">Log in</Link>
+                <Link to="/signin" className="link__accent">Sign in</Link>
             </div>
             <nav className="navbar">
-                <Link to="/">Home</Link>
-                <Link to="steps__headline">How it works?</Link>
-                <Link to="about">About us</Link>
-                <Link to="partners__container">Charity organizations</Link>
-                <Link to="contact">Contact</Link>
+                <LinkScroll smooth={true} duration={500} to="/">Home</LinkScroll>
+                <LinkScroll smooth={true} duration={500} to="steps__headline">How it works?</LinkScroll>
+                <LinkScroll smooth={true} duration={500} to="about">About us</LinkScroll>
+                <LinkScroll smooth={true} duration={500} to="partners__container">Charity organizations</LinkScroll>
+                <LinkScroll smooth={true} duration={500} to="contact">Contact</LinkScroll>
             </nav>
         </div>
     </div>

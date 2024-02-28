@@ -11,6 +11,12 @@ export default function Partners() {
     const [currentPage, setCurrentPage] = useState(1);
     const [partnersShowing, setPartnersShowing] = useState(partnersFiltered.slice(0, 3));
 
+    useEffect(() => {
+        setPartnersFiltered(partners.categories.find(category => category.name === partnerFilter).elements);
+        setPartnersShowing(partners.categories.find(category => category.name === partnerFilter).elements.slice(0, 3));
+        setCurrentPage(1);
+    }, [partnerFilter]);
+
     const renderPageNumbers = () => {
         const pageNumbers = [<button key={1} className={currentPage === 1 ? "active" : null } onClick={() => handlePageChange(1)}>{1}</button>];
         for (let i = 2; i <= numPages; i++) {
@@ -27,13 +33,6 @@ export default function Partners() {
         setPartnersShowing(partnersFiltered.slice(startIndex, endIndex));
         setCurrentPage(pageNumber);
     };
-
-    useEffect(() => {
-        setPartnersFiltered(partners.categories.find(category => category.name === partnerFilter).elements);
-        setPartnersShowing(partners.categories.find(category => category.name === partnerFilter).elements.slice(0, 3));
-        setCurrentPage(1);
-    }, [partnerFilter]);
-
 
     return <section className="partners__container">
         <h2 className="partners__title">Whom do we support?</h2>
