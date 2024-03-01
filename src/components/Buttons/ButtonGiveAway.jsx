@@ -1,5 +1,5 @@
-export default function ButtonGiveAway() {
-    return <button className="button__big">
-        Give your things away
-    </button>
+import {Link} from "react-router-dom";
+
+export default function ButtonCollection() {
+    return <Link to="/login" className="button__big">Give your things away</Link>
 }

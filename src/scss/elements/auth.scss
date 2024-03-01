@@ -44,3 +44,11 @@
     }
   }
 }
+
+.button__gohome {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  font-family: fonts.$font-alt;
+  font-size: 18px;
+  border: 1px solid colors.$color-dark;
+}

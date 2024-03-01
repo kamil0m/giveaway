@@ -1,5 +1,7 @@
 import ButtonGiveAway from "./Buttons/ButtonGiveAway";
 import ButtonCollection from "./Buttons/ButtonCollection";
+import {useLocation} from "react-router-dom";
+import {scroller} from "react-scroll";
 
 
 export default function HomeHeader() {

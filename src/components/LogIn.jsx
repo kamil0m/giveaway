@@ -1,4 +1,4 @@
-import TopMenu from "./TopMenu";
+import TopMenu from "./TopMenu/TopMenu";
 import {Link} from "react-router-dom";
 
 export default function LogIn() {

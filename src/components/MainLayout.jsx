@@ -1,10 +1,9 @@
-import TopMenu from "./TopMenu";
+import TopMenu from "./TopMenu/TopMenu";
 import {Outlet} from "react-router-dom";
 
-export default function MainLayout() {
+export default function MainLayout({isScrollAble}) {
     return <>
-        <TopMenu />
+        <TopMenu isScrollAble={isScrollAble} />
         <Outlet />
-
     </>
 }

@@ -29,13 +29,14 @@
     a {
       padding: 16px;
       margin: 10px;
+      border: 1px solid transparent;
 
-      &:first-child {
+      &:hover {
         border: 1px solid colors.$color-dark;
       }
 
       &:last-child {
-        padding-right: 0;
+        transform: translate(16px);
         margin-right: 0;
       }
     }
