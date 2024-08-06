@@ -1,13 +1,18 @@
 @use "../settings/fonts";
 @use "../settings/colors";
 
+
+
 .copyright__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  //height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
 }
 
 .copyright {

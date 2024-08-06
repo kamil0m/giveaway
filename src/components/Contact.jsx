@@ -1,3 +1,4 @@
+import Footnote from "./Footnote";
 
 export default function Contact() {
     return <section className="contact">
